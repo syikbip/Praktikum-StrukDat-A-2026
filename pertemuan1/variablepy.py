@@ -58,43 +58,48 @@ print(my_name_is)
 
 # Many Values to Multiple Variables
 
-x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+data1, data2, data3 = "alfamart", "indomaret", "ayam geprek"
+print(data1)
+print(data2)
+print(data3)
 
 # One Value to Multiple Variables
-x = y = z = "Orange"
+x = y = z = "orang","rudi",'mandi'
 print(x)
 print(y)
 print(z)
 
 # Unpack a Collection
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
+makanan = ["apple", "banana", "cherry"]
+makanann = ['siomay','sup','ikan']
+x, y, z = makanan
+a, b, c = makanann
 print(x)
 print(y)
 print(z)
+print(a)
+print(b)
+print(c)
 
 #Output Variables
-x = "Python is awesome"
-print(x)
+variable = "saya suka makan 'futsal"
+print(variable)
 
-x = "Python"
-y = "is"
-z = "awesome"
+x = "saya suka"
+y = "makan"
+z = "dan futsal"
 print(x, y, z)
 
-x = "Python "
-y = "is "
-z = "awesome"
+x = "aku "
+y = "dan "
+z = "kamu "
 print(x + y + z)
 
 # Global Variables
-x = "awesome"
+x = "sholat daan tidur"
 
 def myfunc():
-  print("Python is " + x)
+  print("saya akan " + x)
 
 myfunc()
 
@@ -102,8 +107,8 @@ myfunc()
 
 def myfunc():
   global x
-  x = "fantastic"
+  x = "wangkitogalo"
 
 myfunc()
 
-print("Python is " + x)
+print("Palembang is " + x)
